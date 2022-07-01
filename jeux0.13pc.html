@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Big Adventure</title>
+</head>
+
+<body>
+  <H1>Jeux Incroyable.</H1>
+    <script type="text/javascript">
+    //Le nom du joueur    
+var name=prompt ("Tu t'appelle comment !");
+//Comment jouer au jeu
+alert ("Salut " + name + ", Dans ce jeu tu va être amener à faire des choix. Si par exemple on te propose 2 choix et que tu veux choisir le premier, tu écrit 1 et si tu veux choisir le deuxième, tu écrit 2. Certaine question ne seront pas indiqué d'un 1 ou d'un 2 tu peux alors écrire un oui ou un non. Voila, bonne chance! ");
+
+//Premiere question
+var patrick = "aller braquer le magasin de petits souliers";
+var chantale = "manger une soupe.";
+var Joe = prompt ("Bon Matin Mr ou Mme " + name + ", tu te réveille un samedi matin, que fait tu, (1)" + patrick + ", (2)" + chantale + " ou (3)aller se faire une petite partie de mario kart");
+if (Joe == 3){
+var sept = prompt ("(1)50cc (2)100cc ou (3)200cc")
+}
+//Premiere question
+
+//choix du CC
+if (sept == 1) {
+alert ("Un peu facile non ?")
+}
+if (sept == 2) {
+alert ("parfaite vitesse, je sens l'énergie du kart. Bravo tu à gagné.")
+}
+if (sept == 3) {
+var max = prompt ("Waouw je vois que tu aime les défi alors je t'en lance un. Écrie la réponse de 12 * 12 ?")
+}
+//choix du CC
+
+//Le défi
+if (max == 144){
+var boite = prompt ("Incroyable, même si tu as surement utiliser une calculatrice. tiens, une boîte surprise. Veut tu l'ouvrir. (oui ou non)")
+} else if (max <= 143){
+  alert ("T'es pourris t'aurrais pus tricher en utilisant une calculatrice. La réponse c'est 144")
+} else if (max >= 145){
+  alert ("Déscend un peut t'es trop haut mais t'était proche la réponse c'est 144")
+}
+//Le défi
+
+//choix ouvrir ou pas la boîte 
+if (boite == "oui"){
+  alert ("Avec plein d'excitation tu déchire le papier d'emballage, tu soulève le boîtier et tu y trouve malheureusement une balle rebondissante allant jusqua 5 mètre.")
+}
+if (boite == "non"){
+  alert ("Tu dépose la boîte et tu t'en va loin, très loin de là. Tu quitte même le pays. Finalement tu quitte la planète et tu devient une météorite")
+}
+//choix ouvrir ou pas la boîte 
+
+ //Après le braquage de petits souliers.
+ if (Joe == "1"){
+var deux = prompt ("Le braquage a réussi. +1 soulier. Maintenant que fait tu ? (1)parler à big tony,(2)une pizza ou (3)jouer a cache-cache avec raoul ?")}
+if (deux == 1){
+var huit = prompt ("Tu lui dit quoi? (1)Lui demandé de l'argent pour pouvoir s'acheter des réglisse ou (2)Lui proposer un défi, se rentrer le plus de raisin dans la bouche sans en recracher. ")
+  }  
+if (deux == 2){
+    var six = prompt ("Tu fait une pizza et elle est DÉGEULASSE. Alors tu décide d'aller travaillé, mais ou travaille tu ? (1)Au St-tubert ou (2)au petit snack à patate")
+  } if (deux == 3){
+var neuf = prompt ("Parti intensif de cache cache, raoul fut difficile a trouvé, en effet raoul c'était caché en azerbaijan pendant 30 ans. il menait maintenant la vie d'un éleveur de bétail dans une ferme retiré de toute civilization. Tu n'a toujour pas parlé a Raoul depuis 30 ans mais tout tes contact te comfirme bien qu'il habite ici, que fait tu ? (1) Rentrer en éttant pacifiste, (2) Rentrer en défoncant la porte et immédiattement demander une bière de facon brusque et impoli ou (3) Faire exploser la maison avec de la dinamyte.")
+  }
+//Après le braquage de petits souliers.
+
+//Choix comment rentrer dans la maison
+if (neuf == 1){
+var dix = prompt ("Tu avance vers la ferme en te dirigeant vers ce qui te semble etre une habitation. Tu cogne a la porte et raoul t'ouvre. Il te reconnait immédiattement avec surprise et peur comme si il avait vun fantome. Raoul avait changer depuis ce temps il avait maintenant une barbe tout ébourrifer lui couvrant tout le visage. Il semblait aussi avoir une cicatrice sur la joue droite. Malgré ces longues années passer seule sur une ferme avec comme seul compagnie des vaches et des chèvres Raoul te proposa un vers d'eau. Raoul et toi se dirigèrent dans le salon, Il t'y laissa seul pendant qu'il alla servir 2 verres d'eau. En atendant que fait tu ? (1) regarder dans la pièce pour en aprendre plus sur Raoul et surtout pourquoi a-t-il disparue en Azerbaïdjan ou (2) ")
+} 
+if (neuf == 2){
+  alert ("Tu défonca la porte de sa maison, le bruit retenti a des kilomètres d'ici, solide coup de pied. Raoul venaient vers toi d'un pas décider, il n'avait pas l'air de te reconnaitre, on dirait plus qu'il était sur le bord de t'attaquer.Tu lui crie de t'apporter une bierre. Il ne t'écoute meme pas, il continue d'avancer vers toi Il n'était pas armé alors en signe de précaution tu décide de le frapper en premier, il tombe a terre et te dit de t'en aller. Tu t'en va, Mission échouer tu a frappé un vieux monsieur.")
+}
+if (neuf == 3){
+  alert ("Tu décide de discrètement placer des dynamites autour de la maison. En placant une dynamite près d'une fenetre tu apercois quelqu'un (probablement raoul avec une barbe) qui écoutait la télé. Tu relie les bombes au détonateur, tu te met des bouches-orreilles et déclenche les dynamites. Instantanément la maison explose, des débris revoles de partout, tu en recois meme a quelque mètre de toi. La fumé prend ensuite la forme d'un champigon, Mission échouer tu vient de tuer raoul et probablement blesser des animaux de sa ferme. ")
+}
+//Choix comment rentrer dans la maison
+if (dix == 1){
+alert ("Tu observe autour de toi tout en restant sur le sofa. En face de toi tu ne trouve pas de télé comme dans la plupart des foyers mais un meuble avec 4 tiroirs dont un qui était ouvert contenait des vêtements sales et déchiré. D'ailleurs, tu le remarque après plusieur minutes mais la ferme et plus particulièrement la maison est dans un état désastreuses, les murs sont à peine peint, le sol était couvert de vaisselles sale et de bouteille de bière vide, heureussent qu'on est le jour parce que la maison n'a pas l'air d'avoir d'électricité. À droite tu trouve une table de chevet avec un cendrier, une bière et un cadre avec une photo ou tu voyais Raoul qui serrait la main à quelqu'un de visiblement important. Il y avait aussi un fusil de chasse équiper d'une lunette de précision accrocher au mur, mais dans un désert le seul animal observable c'est l'homme. Mais que peut-il bien faire avec cet arme.")}
+
+//Parler à Big Tony
+if (huit == 1){
+var dixneuf = prompt ("il accepte de te donner un gros sous pour t'acheter de la réglisse mais il veut d'abord que tu le battent à tetris. Comme tu n'a jamais jouer à Tetris avant, que fait tu ? (1) Voler LA grosse cène de Big tony ou (2) Tenter la technique du samuraï ?")}
+if (huit == 2){
+alert ("il refuse et sort un fusil. Il te demande ou se trouve son frère big papy il est porté disparu après avoir été a un dépanneur. On le voit sur les caméras de sécurité en train de parler a un inconnu, il a ensuite quitté le dépanneur avec des cheetos.Depuis, on a aucune nouvel.")}
+//Parler à Big Tony
+
+//Contre Big Tony À Tetris
+if (dixneuf == 1){
+alert ("Tu Dit à Tony qu'il peut aller chercher la gameboy pour jouer à Tetris. Pendant qu'il est au sous-sol, Tu prend sans faire le moindre bruit la grosse cène de Big Tony. Alors que tu l'entend remonter les marches une par une, Tu cours vers la porte afin de l'ouvrir et de finalement sortir. Mission réussi, tu as volé la grosse cène à Tony au lieu de jouer à Tetris.")}
+if (dixneuf == 2){
+alert ("Tony te prêta une GameBoy, Tu ferma les yeux et fit le vide dant ton esprit, Tu concentra alors toute ton énergie de descendent du célebre samuraï Ryusaky. Tu commence a te transformé en samuraï, Un samuraï qui sait jouer à Tetris, pas comme toi. En tant que samuraï légendaire joueur profesionnel de Tetris ayant sa prompre technique, Tu sens une nouvelle peau, la peau d'un joueur de Tetris. Tu gagne finalement la partie les doigts dans le nez. Big Tony te remet sa cène et te souhaite Bonne chance dans ton aventure. Tu peut maintenant t'acheter plein de réglisse.")}
+//Contre Big Tony À Tetris
+
+//Lieux du Travaille
+if (six == 1){
+ alert ("Tu fait la mascotte de poulet à l'entré et un client te dit que t'est pas un vrai poulet. Que fait tu ?") }
+ if (six == 2){
+  alert ("Tu va au SAPU (Snack À Patate Urbain) pour cuisiner de la bonne patate")
+ }
+//Lieux du Travaille
+
+else if (Joe == "2"){
+
+//Choix de la soupe
+var trois = prompt ("Tu mange de la soupe. Mais quelle sorte, (1)Lipton ou (2)soupe au pois") };
+if (trois == 1) {
+  var quatre=prompt ("Tu mange une soupe Lipton, bon choix mais elle est trop chaude, que fait tu ? (1)Souffler pendant 3 heures ou (2)demander de l'aide a johnny test.")
+}else if (trois == 2){
+  var cinq = prompt ("Mais ça sallit le chaudron ? (Oui ou Non)")
+}//Choix de la soupe
+
+//Choix si ça sallit le Chaudron
+if (cinq == "oui"){
+  alert (" Bien raison mon gros " + name)
+}
+else if (cinq == "non" ){
+  alert ("Pardon ? ça sallit pis après ça seche. Mauvaise Réponse.")
+}
+//Choix si ça sallit le Chaudron
+
+//Choix que faire avec la soupe Lipton
+if (quatre == 1){
+alert ("Hein! Bon comme tu veux. Tu perd 3 ans de ta vie pour une bonne et froide soupe Lipton. ")}
+else if (quatre == 2){
+var onze = prompt ("Johnny test met la soupe au frigo. Elle est maintenant trop froide et Johnny test t'a volé tes pantalon. Oublions la soupe, veut tu (1) proposer un braquage à Monique ou (2) danser la macarena   ")}
+//Choix que faite avec la soupe Lipton
+
+//Choix que faire après Johnny Test
+if (onze == 1){
+var douze = prompt ("Que va tu voler ? (1)Le Magasin favoris de Monique, Le dépanneur tu coin de la rue où on y trouverait apparamment des dizaine de kilo de réglisse bleu, les préférés à Monique (2) Braquer une banque. Une vraie, avec de l'argent pas de la reglisse ?")}
+if (onze == 2){
+var quinze = prompt ("Tu dance la macarena.")}
+//Choix que faire après Johnny Test
+
+//Quoi volé
+if (douze == 1){
+var dixsept = prompt ("Vous décider de prendre une aproche (1)Furtive (2) De la manière forte") } 
+if (douze == 2){
+var seize = prompt ("Vous prenez la banque de la ville en esperant se faire un petit 100 000$. Vous decider d'attaquer (1) la nuit ou (2) le jour")}
+//Quoi volé
+
+//Type d'approche
+if (dixsept == 1){
+alert ("Tu decide de prendre une approche furtive.")
+}
+if (dixsept == 2){
+alert ("Tu decide de prendre une approche Bruyante.")
+}
+//Type d'approche
+
+//Banque Jour ou Nuit
+if (seize == 1){
+alert ("Tu fait un braquage de nuit sur une pas pire grande banque. Tu as fait le bon choix en prenant de nuit mais malheureusement tu ne put seulement prendre 20 000$ et tu brisa ta voiture à la casse pour effacer les preuves. Toi et monique partirent au pérou pour éviter de se faire retrouver.")
+}
+if (seize == 2){
+var dixuite = prompt ("Drole d'idée D'attaquer de jour. Il avait plus de gens à la banque et la police est arrivé très vite sur les lieux parce que des gens vous on vue arriver avec votre équipement avant même d'arriver dans la banque. Vous etes alors entouré. Que faite vous ? (1) Garder le gros montant d'argent et jeter Monique au policier en fuyant par l'arrière ou (2) Abandonner le lourd montant d'argent Mais garder monique pour fuir en discrètion.")
+}
+//Banque Jour ou Nuit
+if(dixuite == 1){
+  alert ("Vous Ètes définitivement le pire traitre mais je vous comprend, Monique avait surement l'intension de vous faire la même chose. Monique se fit emprisonner elle vous balanca mais vous aviez déja un plan contre elle. Vous aviez préalablement Bruler votre maison pour effacer toute trace du plan du braquage et de votre trace d'ADN. Vous aviez aussi acheter des billets vers la suisse ainsi tu va pouvoir acheter une maison avec l'argent de la banque. + 100 000$")}
+  if(dixuite == 2){
+  alert ("Sage décision, Tu abandonne l'argent Ce qui te fait beaucoup moins de poid. Tu réussi à sauver Monique et à te sauver. Quelque année plus tard la police retrouva monique mais elle ne t'a pas balancé. À cause d'insuffisance de preuves, Monique ne prit que 2 ans de prison. Tu finit ta vie en tant que commit chez walmart sans argent mais asser pour être heureux.")
+  } 
+    </script>
+  </body>
+</html>
